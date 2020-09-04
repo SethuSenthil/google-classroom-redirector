@@ -1,0 +1,72 @@
+:root {
+    font-size: 17px;
+    color: white;
+}
+
+
+html,
+body {
+    background-color: black;
+    height: 100%;
+    text-align: center;
+    color: white;
+}
+
+.is-white{
+    color: white;
+}
+
+.is-green{
+    background: #20A464;
+    border: none;
+    color: white;
+}
+
+input[type=number]{
+    background: inherit;
+    color: white;
+    border: none;
+    width: 20%;
+}
+
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+
+   opacity: 1;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0 1rem;
+}
+
+
+body {
+    background: linear-gradient(270deg, #eda305, #f5ba14, #20a464, #60be90);
+    background-size: 800% 800%;
+
+    -webkit-animation: movinggradient 30s ease infinite;
+    -moz-animation: movinggradient 30s ease infinite;
+    animation: movinggradient 30s ease infinite;
+}
+
+@-webkit-keyframes movinggradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes movinggradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes movinggradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
